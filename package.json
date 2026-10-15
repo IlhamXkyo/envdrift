@@ -1,0 +1,45 @@
+{
+  "name": "envdrift",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI for static environment variable drift detection, secret leak scanning, and automated .env.example synchronization across polyglot codebases.",
+  "type": "module",
+  "main": "./src/index.js",
+  "bin": {
+    "envdrift": "./bin/envdrift.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "start": "node ./bin/envdrift.js check"
+  },
+  "keywords": [
+    "env",
+    "dotenv",
+    "drift",
+    "developer-tools",
+    "cli",
+    "security",
+    "linter",
+    "static-analysis",
+    "automation",
+    "zero-dependency"
+  ],
+  "author": "Ilham (@IlhamXkyo)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IlhamXkyo/envdrift.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IlhamXkyo/envdrift/issues"
+  },
+  "homepage": "https://github.com/IlhamXkyo/envdrift#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
